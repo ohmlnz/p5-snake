@@ -1,0 +1,10 @@
+canvas {
+	display: block;
+	margin: auto;
+}
+
+#leaderboard h3 {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	text-align: center;
+}
