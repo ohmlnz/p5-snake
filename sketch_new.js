@@ -39,7 +39,6 @@ function displayScores(score) {
 
   past_scores.innerHTML = '<b>Past scores (5 last ones)</b><br>';
   past.push(score);
-  //past.sort().reverse();
   past.forEach((el, index) => past_scores.innerHTML += `Score: ${el}<br>`);
 }
 
