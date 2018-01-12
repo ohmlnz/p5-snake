@@ -1,10 +1,45 @@
+body {
+	background-color: #323232;
+}
+
+h1 {
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+	margin-top: .5em;
+}
+
 canvas {
 	display: block;
 	margin: auto;
+	border: 2px solid black;
 }
 
-#leaderboard h3 {
+.current-score {
 	text-transform: uppercase;
 	font-family: Helvetica;
 	text-align: center;
+	color: white;
+}
+
+.past-scores {
+	position: absolute;
+	left: 2%;
+	border-left: 1px solid #8a8787;
+	padding-left: 1em;
+	color: #8a8787;
+}
+
+.modal-start {
+	width: 70%;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	font-size: 4em;
+	text-shadow: 2px 2px grey;
 }
